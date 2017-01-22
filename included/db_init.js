@@ -4,9 +4,9 @@ function give_connection() {
 	
 var connection = mysql.createConnection({
   host     : 'localhost',
-  user     : 'root',
-  password : 'rdymnnit',
-  database : 'webrtc'
+  user     : '',
+  password : '',
+  database : ''
 });
 
 connection.connect();
